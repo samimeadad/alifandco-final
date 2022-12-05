@@ -8,7 +8,7 @@ import logo from '../../images/logo/logo.jpg';
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='py-4'>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='py-5'>
             <Container>
                 <Navbar.Brand><Link to="/" className='text-dark text-decoration-none text-center'><img className='img-fluid' style={ { width: '150px' } } src={ logo } alt="logoImage" /></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

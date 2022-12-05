@@ -1,9 +1,12 @@
 import React from 'react';
+import CoreTeamBanner from './CoreTeamBanner';
+import CoreTeamMembers from './CoreTeamMembers';
 
 const CoreTeam = () => {
     return (
         <div>
-            <h1>Our Core Team</h1>
+            <CoreTeamBanner />
+            <CoreTeamMembers />
         </div>
     );
 };
