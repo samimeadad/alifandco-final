@@ -10,8 +10,12 @@ const Footer = () => {
         <footer className="bg-light text-dark p-5 overflow-hidden w-100">
             <div className="text-center py-5 overflow-hidden w-100">
                 <img style={ { width: '150px' } } src={ logo } alt="logoImage" className='img-fluid' />
+                <p className="mt-5 text-center overflow-hidden w-100 fs-3 text-primary">
+                    <Link to={ { pathname: "https://www.facebook.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-facebook text-warning me-4" data-toggle="tooltip" title="Facebook"></i></Link>
+                    <Link to={ { pathname: "https://www.twitter.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-twitter text-warning" data-toggle="tooltip" title="Twitter"></i></Link>
+                </p>
             </div>
-            <Container className='my-5 overflow-hidden'>
+            <Container className='mb-5 overflow-hidden'>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className='mt-4'>
                         <p className="text-justify text-dark ms-3 text-center">
@@ -54,8 +58,8 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='text-center overflow-hidden'>
-                <p className="text-dark text-center fs-6">Copyright © 2020 Alif & Co Chartered Accountants | Alif & Co is a trading name of Alif & Co Limited (Company no 08080794) and Alif & Co (London) Limited (Company no 11258449) registered in England and Wales. | All Rights Reserved | Terms & Privacy Policy</p>
+            <Container className='text-center overflow-hidden mt-5'>
+                <p className="text-dark text-center fs-6 mt-5">Copyright © 2020 Alif & Co Chartered Accountants | Alif & Co is a trading name of Alif & Co Limited (Company no 08080794) and Alif & Co (London) Limited (Company no 11258449) registered in England and Wales. | All Rights Reserved | Terms & Privacy Policy</p>
                 <p className="text-dark text-center fs-6"><small>Copyright &copy; { ( new Date().getFullYear() ) } Alif & Co</small></p>
             </Container>
         </footer>
