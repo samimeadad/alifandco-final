@@ -3,10 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import member1 from '../../images/core-team/members/Md-Mohiuddin.jpg';
-import member2 from '../../images/core-team/members/Ahmed_Kabir.jpg';
 import member3 from '../../images/core-team/members/Tanbhir_Tahlil.jpg';
-import member4 from '../../images/core-team/members/Mohammed_Jabed_Hassan.jpg';
-import member5 from '../../images/core-team/members/Faria_Hossain.jpg';
 import member6 from '../../images/core-team/members/Mohammad_Fahad.jpg';
 
 const CoreTeamMembers = () => {
