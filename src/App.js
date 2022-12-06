@@ -10,6 +10,9 @@ import Header from "./Component/Header/Header";
 import Footer from "./Component/Footer/Footer";
 import PersonalServices from "./Pages/Services/PersonalServices";
 import BusinessServices from "./Pages/Services/BusinessServices";
+import Member1 from "./Pages/CoreTeam/Member1";
+import Member2 from "./Pages/CoreTeam/Member2";
+import Member3 from "./Pages/CoreTeam/Member3";
 
 
 function App () {
@@ -20,6 +23,9 @@ function App () {
         <Route exact path="/" element={ <Home /> } />
         <Route exact path="/home" element={ <Home /> } />
         <Route exact path="/core-team" element={ <CoreTeam /> } />
+        <Route exact path="/core-team/member-1" element={ <Member1 /> } />
+        <Route exact path="/core-team/member-2" element={ <Member2 /> } />
+        <Route exact path="/core-team/member-3" element={ <Member3 /> } />
         <Route exact path="/services" element={ <Services /> } />
         <Route exact path="/business-services" element={ <BusinessServices /> } />
         <Route exact path="/personal-services" element={ <PersonalServices /> } />

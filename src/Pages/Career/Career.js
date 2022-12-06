@@ -28,7 +28,7 @@ const Career = () => {
                         We seek professionals who see things differently, who find opportunity where others don’t, who look within themselves and ask every day for extra miles.
                     </p>
                     <p className='text-justify my-4'>
-                        If you think you are one them, please send your CV <span><a href="mailto:career@alifandco.co.uk" className='text-warning text-decoration-none'>here</a></span>. We will contact you when a suitable vacancy is available.
+                        If you think you are one them, please send your CV <span><a href="mailto:info@alifandco.co.uk" className='text-warning text-decoration-none'>here</a></span>. We will contact you when a suitable vacancy is available.
                     </p>
                 </section>
             </Container>

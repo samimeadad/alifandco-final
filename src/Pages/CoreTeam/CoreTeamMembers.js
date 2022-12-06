@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import member1 from '../../images/core-team/members/Md-Mohiuddin.jpg';
 import member3 from '../../images/core-team/members/Tanbhir_Tahlil.jpg';
 import member6 from '../../images/core-team/members/Mohammad_Fahad.jpg';
+import { Link } from 'react-router-dom';
 
 const CoreTeamMembers = () => {
     return (
@@ -18,7 +19,7 @@ const CoreTeamMembers = () => {
                             <Card.Text>
                                 Chartered Accountant
                             </Card.Text>
-                            <Button variant="dark">View Profile</Button>
+                            <Link to="/core-team/member-1"><Button variant="dark">View Profile</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -30,7 +31,7 @@ const CoreTeamMembers = () => {
                             <Card.Text>
                                 Partner
                             </Card.Text>
-                            <Button variant="dark">View Profile</Button>
+                            <Link to="/core-team/member-2"><Button variant="dark">View Profile</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -42,7 +43,7 @@ const CoreTeamMembers = () => {
                             <Card.Text>
                                 Assistant Accountant
                             </Card.Text>
-                            <Button variant="dark">View Profile</Button>
+                            <Link to="/core-team/member-3"><Button variant="dark">View Profile</Button></Link>
                         </Card.Body>
                     </Card>
                 </Col>
