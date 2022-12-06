@@ -6,13 +6,13 @@ import memberImage from '../../images/core-team/members/Md-Mohiuddin.jpg';
 const Member1 = () => {
     return (
         <Container className='my-5'>
-            <Card className="card">
-                <Row className="">
+            <Card className="card p-5">
+                <Row className="g-5">
                     <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
-                        <img src={ memberImage } className="img-fluid w-100" alt="MemberImage" />
+                        <img src={ memberImage } className="img-fluid w-100" alt="MemberImage" style={ { borderRadius: "50%" } } />
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
-                        <div className="card-body mt-5" style={ { textAlign: "justify" } }>
+                        <div className="card-body" style={ { textAlign: "justify" } }>
                             <h4 className="card-title fs-2">Md Mohiuddin, ACA, FCCA, CPFA</h4>
                             <h5>Chartered Accountant, ATOL Reporting Accountant</h5>
                             <p className="card-text mt-3 fs-5" style={ { textAlign: "justify" } }>Md Mohiuddin has started this firm in 2012 having qualified as a Chartered Certified Accountant in 2009. He also qualified as a Chartered Public Finance Accountant in 2017. Last but not least, recently he has also achieved the membership of ICAEW.</p>

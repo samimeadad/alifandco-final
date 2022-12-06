@@ -9,14 +9,14 @@ const Member3 = () => {
             <Card className="card p-5">
                 <Row className="g-5">
                     <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
-                        <img src={ memberImage } className="img-fluid w-100" alt="MemberImage" />
+                        <img src={ memberImage } className="img-fluid w-100" alt="MemberImage" style={ { borderRadius: "50%" } } />
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
                         <div className="card-body mt-4" style={ { textAlign: "justify" } }>
                             <h4 className="card-title fs-2">Mohammad Fahad Ahmed, MAAT</h4>
                             <h5>Assistant Accountant</h5>
                             <p className="card-text mt-4 fs-5" style={ { textAlign: "justify" } }>Mohammad Fahad Ahmed has joined Alif & Co from very beginning and qualified as a member of AAT in 2018.</p>
-                            <h5 className='mt-4'>Expertise:</h5>
+                            <h5 className='mt-3'>Expertise:</h5>
                             <p className='mt-3'>
                                 <ul>
                                     <li>Bookkeeping</li>
@@ -25,10 +25,10 @@ const Member3 = () => {
                                     <li>Payroll management</li>
                                 </ul>
                             </p>
-                            <p className='mt-4'>
+                            <p className='mt-3'>
                                 <h6>Email: <a href="mailto:info@alifandco.co.uk" className='text-primary text-decoration-none' >info@alifandco.co.uk</a></h6>
                             </p>
-                            <p className="card-text mt-4"><Link to="/core-team"><Button variant="dark">Go Back</Button></Link></p>
+                            <p className="card-text mt-5"><Link to="/core-team"><Button variant="dark">Go Back</Button></Link></p>
                         </div>
                     </Col>
                 </Row>
