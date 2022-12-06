@@ -8,7 +8,7 @@ const Career = () => {
             <Container className='my-5 fs-5 text-justify' style={ { textAlign: "justify" } }>
                 <section className='my-5 text-center'>
                     <h1>Careers</h1>
-                    <h1 className='fs-1 text-warning fw-bold'>________________________________________________________</h1>
+                    <h1 className='fs-1 text-warning fw-bold text-center'>_________________________________</h1>
                 </section>
                 <section className='my-5 text-justify'>
                     <p className='text-justify my-4'>
