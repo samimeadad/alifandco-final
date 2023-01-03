@@ -30,7 +30,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ blog1 } className="img-fluid m-auto" />
+                            <Card.Img variant="top" src={ blog2 } className="img-fluid m-auto" />
                             <Card.Body>
                                 <Card.Title className='fs-5'>Advisory fuel rates for company cars</Card.Title>
                                 <Card.Text>
