@@ -13,6 +13,9 @@ import BusinessServices from "./Pages/Services/BusinessServices";
 import Member1 from "./Pages/CoreTeam/Member1";
 import Member2 from "./Pages/CoreTeam/Member2";
 import Member3 from "./Pages/CoreTeam/Member3";
+import Blog1 from "./Pages/Blog/Blog1";
+import Blog2 from "./Pages/Blog/Blog2";
+import Blog3 from "./Pages/Blog/Blog3";
 
 
 function App () {
@@ -31,6 +34,9 @@ function App () {
         <Route exact path="/personal-services" element={ <PersonalServices /> } />
         <Route exact path="/career" element={ <Career /> } />
         <Route exact path="/blog" element={ <Blog /> } />
+        <Route exact path="/blog/blog-1" element={ <Blog1 /> } />
+        <Route exact path="/blog/blog-2" element={ <Blog2 /> } />
+        <Route exact path="/blog/blog-3" element={ <Blog3 /> } />
         <Route exact path="/contact" element={ <Contact /> } />
         <Route exact path="*" element={ <PageNotFound /> } />
       </Routes>
