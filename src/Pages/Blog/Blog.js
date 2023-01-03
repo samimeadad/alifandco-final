@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
-import member1 from '../../images/core-team/members/Tanbhir_Tahlil.jpg';
+import blog1 from '../../images/blog/blog1.jpg';
+import blog2 from '../../images/blog/blog2.jpg';
+import blog3 from '../../images/blog/blog3.jpg';
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
@@ -14,7 +16,7 @@ const Blog = () => {
                 <Row className='g-3'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ member1 } className="img-fluid m-auto" />
+                            <Card.Img variant="top" src={ blog1 } className="img-fluid m-auto" />
                             <Card.Body>
                                 <Card.Title className='fs-5'>Scottish tax bands diverge further</Card.Title>
                                 <Card.Text>
@@ -28,7 +30,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ member1 } className="img-fluid m-auto" />
+                            <Card.Img variant="top" src={ blog1 } className="img-fluid m-auto" />
                             <Card.Body>
                                 <Card.Title className='fs-5'>Advisory fuel rates for company cars</Card.Title>
                                 <Card.Text>
@@ -42,7 +44,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ member1 } className="img-fluid m-auto" />
+                            <Card.Img variant="top" src={ blog3 } className="img-fluid m-auto" />
                             <Card.Body>
                                 <Card.Title className='fs-5'>Marketing considerations for 2019</Card.Title>
                                 <Card.Text>
