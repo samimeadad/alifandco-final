@@ -15,7 +15,7 @@ const Member1 = () => {
                         <div className="card-body" style={ { textAlign: "justify" } }>
                             <h4 className="card-title fs-2">Md Mohiuddin, ACA, FCCA, CPFA</h4>
                             <h5>Chartered Accountant, ATOL Reporting Accountant</h5>
-                            <p className="card-text mt-3 fs-5" style={ { textAlign: "justify" } }>Md Mohiuddin has started this firm in 2012 having qualified as a Chartered Certified Accountant in 2009. He also qualified as a Chartered Public Finance Accountant in 2017. Last but not least, recently he has also achieved the membership of ICAEW.</p>
+                            <p className="card-text mt-3 fs-5" style={ { textAlign: "justify" } }>Md Mohiuddin has started this firm in 2012 having qualified as a Chartered Certified Accountant in 2009. He also qualified as a Chartered Public Finance Accountant in 2017. Last but not least, he has also achieved the membership of ICAEW.</p>
                             <h5>Expertise:</h5>
                             <p>
                                 <ul>
