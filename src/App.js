@@ -16,6 +16,7 @@ import Member3 from "./Pages/CoreTeam/Member3";
 import Blog1 from "./Pages/Blog/Blog1";
 import Blog2 from "./Pages/Blog/Blog2";
 import Blog3 from "./Pages/Blog/Blog3";
+import Member4 from "./Pages/CoreTeam/Member4";
 
 
 function App () {
@@ -29,6 +30,7 @@ function App () {
         <Route exact path="/core-team/member-1" element={ <Member1 /> } />
         <Route exact path="/core-team/member-2" element={ <Member2 /> } />
         <Route exact path="/core-team/member-3" element={ <Member3 /> } />
+        <Route exact path="/core-team/member-4" element={ <Member4 /> } />
         <Route exact path="/services" element={ <Services /> } />
         <Route exact path="/business-services" element={ <BusinessServices /> } />
         <Route exact path="/personal-services" element={ <PersonalServices /> } />
