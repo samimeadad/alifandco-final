@@ -9,7 +9,7 @@ const ContactForm = () => {
 
     const sendEmail = ( e ) => {
         e.preventDefault();
-        emailjs.sendForm( 'service_3uzzm9x', 'template_wqb7uwh', e.target, 'jNhOjCmeiDHZxun4G' )
+        emailjs.sendForm( 'service_wkovuj4', 'template_0bj3nlo', e.target, 'user_NTt1KPYzFQZfll2DEFxve' )
             .then( ( result ) => {
                 setSuccess( true );
                 setSuccessMessage( "Your message sent sent successfully. We'll get in touch soon." );
