@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AboutUs from './AboutUs';
 import Features from './Features';
 import HomeCarousel from './HomeCarousel';
@@ -8,6 +8,9 @@ import ScrollToTop from 'react-scroll-to-top';
 
 
 const Home = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <div>
             <TopBanner />

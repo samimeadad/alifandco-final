@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="bg-light text-dark overflow-hidden w-100">
             <div className="text-center py-5 overflow-hidden w-100">
-                <img style={ { width: '250px' } } src={ logo } alt="logoImage" className='img-fluid' />
+                <Link to="/home" className='text-dark text-decoration-none text-center'><img className='img-fluid' style={ { width: '250px' } } src={ logo } alt="logoImage" /></Link>
             </div>
             <Container className='mb-5 overflow-hidden'>
                 <Row>
