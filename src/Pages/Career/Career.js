@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import background from '../../images/career/career-background.jpg';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Career = () => {
     return (
@@ -32,6 +33,7 @@ const Career = () => {
                     </p>
                 </section>
             </Container>
+            <ScrollToTop smooth />
         </div>
     );
 };

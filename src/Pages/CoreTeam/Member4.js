@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import memberImage from '../../images/core-team/members/nadim.png';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Member4 = () => {
     return (
@@ -31,6 +32,7 @@ const Member4 = () => {
                     </Col>
                 </Row>
             </Card>
+            <ScrollToTop smooth />
         </Container>
     );
 };

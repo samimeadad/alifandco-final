@@ -4,6 +4,7 @@ import blog1 from '../../images/blog/blog1.jpg';
 import blog2 from '../../images/blog/blog2.jpg';
 import blog3 from '../../images/blog/blog3.jpg';
 import { Link } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Blog = () => {
     return (
@@ -58,6 +59,7 @@ const Blog = () => {
                     </Col>
                 </Row>
             </div>
+            <ScrollToTop smooth />
         </Container >
     );
 };

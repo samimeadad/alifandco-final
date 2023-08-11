@@ -4,6 +4,8 @@ import Features from './Features';
 import HomeCarousel from './HomeCarousel';
 import MiddleImages from './MiddleImages';
 import TopBanner from './TopBanner';
+import ScrollToTop from 'react-scroll-to-top';
+
 
 const Home = () => {
     return (
@@ -13,6 +15,7 @@ const Home = () => {
             <MiddleImages />
             <Features />
             <HomeCarousel />
+            <ScrollToTop smooth />
         </div>
     );
 };

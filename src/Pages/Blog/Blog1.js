@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import blogImage from '../../images/blog/blog1.jpg';
+import ScrollToTop from 'react-scroll-to-top';
+
+
 
 const Blog1 = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
+
     return (
         <Container className='my-5 fs-5 text-justify' style={ { textAlign: "justify" } }>
             <section className='my-5'>
@@ -127,6 +134,7 @@ const Blog1 = () => {
                 </p>
             </section>
             <p className="card-text"><Link to="/blog"><Button variant="dark">Go Back</Button></Link></p>
+            <ScrollToTop smooth />
         </Container>
     );
 };

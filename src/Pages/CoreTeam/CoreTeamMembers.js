@@ -9,6 +9,7 @@ import member4 from '../../images/core-team/members/nadim.png';
 import member5 from '../../images/core-team/members/ammenul.png';
 import member6 from '../../images/core-team/members/Mohammad_Fahad.jpg';
 import { Link } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 const CoreTeamMembers = () => {
     return (
@@ -90,6 +91,7 @@ const CoreTeamMembers = () => {
                     </Card>
                 </Col>
             </Row>
+            <ScrollToTop smooth />
         </Container>
     );
 };
