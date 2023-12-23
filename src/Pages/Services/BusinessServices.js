@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import service1 from '../../images/service-business/business-startup.jpg';
 import service2 from '../../images/service-business/accounting-bookkeeping.jpg';
@@ -13,6 +13,9 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 
 const BusinessServices = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <Container className='my-5'>
             <h1 className='text-center my-5'>Business Services</h1>

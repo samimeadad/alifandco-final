@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import ScrollToTop from 'react-scroll-to-top';
 import { Link } from 'react-router-dom';
@@ -11,6 +11,9 @@ import service6 from '../../images/service-personal/trusts-and-estates.jpg';
 
 
 const PersonalServices = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <Container className='my-5'>
             <h1 className='text-center my-5'>Business Services</h1>
