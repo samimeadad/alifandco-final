@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import blog1 from '../../images/blog/blog1.jpg';
 import blog2 from '../../images/blog/blog2.jpg';
@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Blog = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <Container className='text-center my-5'>
             <div>

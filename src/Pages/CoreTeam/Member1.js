@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import memberImage from '../../images/core-team/members/Md-Mohiuddin.jpg';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Member1 = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <Container className='my-5'>
             <Card className="card p-5">
