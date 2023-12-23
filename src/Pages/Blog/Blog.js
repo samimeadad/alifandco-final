@@ -17,7 +17,7 @@ const Blog = () => {
                 <Row className='g-3'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ blog1 } className="img-fluid m-auto" />
+                            <Link to="/blog/blog-1"><Card.Img variant="top" src={ blog1 } className="img-fluid m-auto" /></Link>
                             <Card.Body>
                                 <Card.Title className='fs-5'><Link to="/blog/blog-1" className='text-decoration-none text-dark'>Scottish tax bands diverge further</Link></Card.Title>
                                 <Card.Text>
@@ -31,7 +31,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ blog2 } className="img-fluid m-auto" />
+                            <Link to="/blog/blog-2"><Card.Img variant="top" src={ blog2 } className="img-fluid m-auto" /></Link>
                             <Card.Body>
                                 <Card.Title className='fs-5'><Link to="/blog/blog-1" className='text-decoration-none text-dark'>Advisory fuel rates for company cars</Link></Card.Title>
                                 <Card.Text>
@@ -45,7 +45,7 @@ const Blog = () => {
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card style={ { width: '18rem', height: "100%" } }>
-                            <Card.Img variant="top" src={ blog3 } className="img-fluid m-auto" />
+                            <Link to="/blog/blog-3"><Card.Img variant="top" src={ blog3 } className="img-fluid m-auto" /></Link>
                             <Card.Body>
                                 <Card.Title className='fs-5'><Link to="/blog/blog-1" className='text-decoration-none text-dark'>Marketing considerations for 2019</Link></Card.Title>
                                 <Card.Text>
