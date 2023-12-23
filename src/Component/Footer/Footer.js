@@ -14,31 +14,31 @@ const Footer = () => {
             <Container className='mb-5 overflow-hidden'>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className='mt-4'>
-                        <p className="text-justify text-dark ms-3 text-center">
+                        <address className="text-justify text-dark ms-3 text-center">
                             <h5 className='text-warning fw-bold'>Birmingham Office</h5>
-                            <p className='mt-3'>
+                            <address className='mt-3'>
                                 Address: Office 3, Heath Court<br />
                                 489-493 Coventry Road<br />
                                 Birmingham B10 0JS <br />
                                 Tel: 0121 771 3444 / 0444<br />
                                 Fax: 0121 572 1503<br />
                                 Email: info@alifandco.co.uk<br />
-                            </p>
-                        </p>
+                            </address>
+                        </address>
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className='mt-4'>
-                        <p className="text-justify text-dark text-center ms-3">
+                        <address className="text-justify text-dark text-center ms-3">
                             <h5 className='text-warning fw-bold'>London Office</h5>
-                            <p className='mt-3'>
+                            <address className='mt-3'>
                                 Address: Second Floor <br />
                                 235 Whitechapel Road <br />
                                 London E1 1DB <br />
                                 Tel: 0207 247 0606 <br />
                                 Fax: 0207 247 0606 <br />
                                 Email: london@alifandco.co.uk <br />
-                            </p>
-                        </p>
+                            </address>
+                        </address>
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className='mt-4 text-center'>
