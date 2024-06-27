@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import member1 from '../../images/core-team/members/Md-Mohiuddin.jpg';
-import member2 from '../../images/core-team/members/yasmin-salah.jpg';
+import member2 from '../../images/core-team/members/narges-asakereh.png';
 import member3 from '../../images/core-team/members/Tanbhir_Tahlil.jpg';
 import member4 from '../../images/core-team/members/nadim.png';
 import member5 from '../../images/core-team/members/ammenul.png';
@@ -68,9 +68,9 @@ const CoreTeamMembers = () => {
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                     <Card style={ { width: '22rem', height: "100%" } }>
-                        <Card.Img variant="top" src={ member2 } style={ { borderRadius: "50%" } } className="img-fluid w-50 m-auto" />
+                        <Card.Img variant="top" src={ member2 } style={ { borderRadius: "50%", height: "45%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
-                            <Card.Title className='fs-6'>Yasmin Salah Hassan</Card.Title>
+                            <Card.Title className='fs-6'>Narges Asakereh</Card.Title>
                             <Card.Text>
                                 Trainee Accountant
                             </Card.Text>
