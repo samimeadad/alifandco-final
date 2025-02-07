@@ -12,7 +12,6 @@ import PersonalServices from "./Pages/Services/PersonalServices";
 import BusinessServices from "./Pages/Services/BusinessServices";
 import Member1 from "./Pages/CoreTeam/Member1";
 import Member2 from "./Pages/CoreTeam/Member2";
-import Member3 from "./Pages/CoreTeam/Member3";
 import Blog1 from "./Pages/Blog/Blog1";
 import Blog2 from "./Pages/Blog/Blog2";
 import Blog3 from "./Pages/Blog/Blog3";
@@ -31,7 +30,6 @@ function App () {
         <Route exact path="/core-team" element={ <CoreTeam /> } />
         <Route exact path="/core-team/member-1" element={ <Member1 /> } />
         <Route exact path="/core-team/member-2" element={ <Member2 /> } />
-        <Route exact path="/core-team/member-3" element={ <Member3 /> } />
         <Route exact path="/core-team/member-4" element={ <Member4 /> } />
         <Route exact path="/core-team/member-5" element={ <Member5 /> } />
         <Route exact path="/core-team/member-6" element={ <Member6 /> } />
