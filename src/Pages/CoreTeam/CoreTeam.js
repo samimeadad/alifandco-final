@@ -8,7 +8,7 @@ const CoreTeam = () => {
         window.scrollTo( 0, 0 )
     }, [] )
     return (
-        <div>
+        <div className="overflow-hidden w-100">
             <CoreTeamBanner />
             <CoreTeamMembers />
             <ScrollToTop smooth />

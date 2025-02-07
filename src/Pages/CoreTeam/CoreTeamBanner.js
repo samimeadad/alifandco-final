@@ -5,7 +5,7 @@ const CoreTeamBanner = () => {
     return (
         <div className='text-center'>
             <img src={ topBanner } alt="BannerImage" className='img-fluid' />
-        </div>
+        </div >
     );
 };
 

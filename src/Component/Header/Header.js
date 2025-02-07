@@ -26,7 +26,6 @@ const Header = () => {
                                 <NavDropdown.Item><Link className="me-4 text-dark text-decoration-none text-center" to="/personal-services"><h6 className='fw-bold'>Personal Services</h6></Link></NavDropdown.Item>
                             </NavDropdown></h5>
                             <Link className="me-4 text-dark text-decoration-none btn btn-light" to="/career"><h5 className='fw-bold'>Career</h5></Link>
-                            <Link className="me-4 text-dark text-decoration-none btn btn-light" to="/blog"><h5 className='fw-bold'>Blog</h5></Link>
                             <Link className="me-4 text-dark text-decoration-none btn btn-light" to="/contact"><h5 className='fw-bold'>Contact Us</h5></Link>
                         </Nav>
                     </Navbar.Collapse>

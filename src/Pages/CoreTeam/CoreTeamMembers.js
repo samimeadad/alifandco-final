@@ -13,9 +13,9 @@ import ScrollToTop from 'react-scroll-to-top';
 const CoreTeamMembers = () => {
     return (
         <Container className='text-center my-5'>
-            <Row className='g-5 my-5'>
+            <Row className='g-5 my-5 text-center'>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                    <Card style={ { width: '22rem', height: "100%" } }>
+                    <Card style={ { width: '15rem', height: "100%" } }>
                         <Card.Img variant="top" src={ member1 } style={ { borderRadius: "50%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
                             <Card.Title className='fs-6'>Md Mohiuddin, ACA, FCCA, CPFA</Card.Title>
@@ -27,7 +27,7 @@ const CoreTeamMembers = () => {
                     </Card>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                    <Card style={ { width: '22rem', height: "100%" } }>
+                    <Card style={ { width: '15rem', height: "100%" } }>
                         <Card.Img variant="top" src={ member3 } style={ { borderRadius: "50%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
                             <Card.Title className='fs-6'>Tanbhir Tahlil, BBA, MBA</Card.Title>
@@ -39,7 +39,7 @@ const CoreTeamMembers = () => {
                     </Card>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                    <Card style={ { width: '22rem', height: "100%" } }>
+                    <Card style={ { width: '15rem', height: "100%" } }>
                         <Card.Img variant="top" src={ member4 } style={ { borderRadius: "50%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
                             <Card.Title className='fs-6'>Abdul Karim
@@ -54,7 +54,7 @@ const CoreTeamMembers = () => {
             </Row>
             <Row className='g-5 my-5'>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                    <Card style={ { width: '22rem', height: "100%" } }>
+                    <Card style={ { width: '15rem', height: "100%" } }>
                         <Card.Img variant="top" src={ member2 } style={ { borderRadius: "50%", height: "45%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
                             <Card.Title className='fs-6'>Narges Asakereh</Card.Title>
@@ -66,7 +66,7 @@ const CoreTeamMembers = () => {
                     </Card>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                    <Card style={ { width: '22rem', height: "100%" } }>
+                    <Card style={ { width: '15rem', height: "100%" } }>
                         <Card.Img variant="top" src={ member5 } style={ { borderRadius: "50%" } } className="img-fluid w-50 m-auto" />
                         <Card.Body>
                             <Card.Title className='fs-6'>Muhammad Ammenul Islam, BSc in Accounting, UK</Card.Title>
