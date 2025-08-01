@@ -20,10 +20,10 @@ const BusinessServices = () => {
     return (
         <Container className='my-5'>
             <Helmet>
-                <title>Business Services | Alif & Co</title>
-                <meta name="description" content="Learn about Alif & Co's services regarding Personal Finance." />
-                <meta property="og:title" content="Business Servicess | Alif & Co" />
-                <meta property="og:description" content="Explore our reliable services tailored for your business progress through financial benefits." />
+                <title>Business Services | Alif & Co Chartered Accountant</title>
+                <meta name="description" content="Learn about Alif & Co Chartered Accountant's services regarding Business Accounting Consultancy and audits." />
+                <meta property="og:title" content="Business Servicess | Alif & Co Chartered Accountant" />
+                <meta property="og:description" content="Explore our reliable accounting services tailored for your personal and business growth." />
                 <meta property="og:url" content="https://alifandco.co.uk/business-services" />
                 <link rel="canonical" href="https://alifandco.co.uk/business-services" />
             </Helmet>
@@ -34,7 +34,7 @@ const BusinessServices = () => {
                     <Accordion.Body className='text-justified'>
                         <img src={ service1 } alt="service1" className='img-fluid overflow-hidden' />
                         <p className='text-justify my-4'>
-                            Starting up a new business is always exciting but you might get stuck with how to start on your own and what are the requirements to meet up with. Alif & Co is here to help you with your dream business start-up. Bring your business ideas to us and we’ll help you to make a correct and informed decision among the different options available.
+                            Starting up a new business is always exciting but you might get stuck with how to start on your own and what are the requirements to meet up with. Alif & Co Chartered Accountant is here to help you with your dream business start-up. Bring your business ideas to us and we’ll help you to make a correct and informed decision among the different options available.
                         </p>
                         <p className='text-justify my-4'>
                             We assist our clients with the following start up facilities:

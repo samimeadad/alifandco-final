@@ -15,10 +15,10 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Home | Alif & Co</title>
-                <meta name="description" content="Welcome to Alif & Co – Your trusted partner for premium consultancy and business services in the UK." />
-                <meta property="og:title" content="Home | Alif & Co" />
-                <meta property="og:description" content="Explore our reliable services tailored for your personal and business growth." />
+                <title>Home | Alif & Co Chartered Accountant</title>
+                <meta name="description" content="Welcome to Alif & Co Chartered Accountant – Your trusted accounting partner for premium accountant consultancy and business accounting services in the UK." />
+                <meta property="og:title" content="Home | Alif & Co Chartered Accountant" />
+                <meta property="og:description" content="Explore our reliable accounting services tailored for your personal and business growth." />
                 <meta property="og:url" content="https://alifandco.co.uk/" />
                 <link rel="canonical" href="https://alifandco.co.uk/" />
             </Helmet>

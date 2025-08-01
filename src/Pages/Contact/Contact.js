@@ -14,10 +14,10 @@ const Contact = () => {
     return (
         <Container className='w-100' style={ { backgroundImage: `url(${ backgroundImage })`, backgroundSize: "cover", overflow: 'hidden' } }>
             <Helmet>
-                <title>Contact Us | Alif & Co</title>
-                <meta name="description" content="Get in touch with Alif & Co for personalized business consultations." />
-                <meta property="og:title" content="Contact | Alif & Co" />
-                <meta property="og:description" content="Explore our reliable services tailored for your personal and business growth." />
+                <title>Contact Us | Alif & Co Chartered Accountant</title>
+                <meta name="description" content="Get in touch with Alif & Co Chartered Accountant for personalized and business accounting consultations." />
+                <meta property="og:title" content="Contact | Alif & Co Chartered Accountant" />
+                <meta property="og:description" content="Explore our reliable accounting services tailored for your personal and business growth." />
                 <meta property="og:url" content="https://alifandco.co.uk/" />
                 <link rel="canonical" href="https://alifandco.co.uk/contact" />
             </Helmet>
