@@ -1,9 +1,18 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 
 const AboutUs = () => {
     return (
         <Container className='text-center my-5'>
+            <Helmet>
+                <title>Home | Alif & Co</title>
+                <meta name="description" content="Learn about Alif & Co's mission, team, and vision." />
+                <meta property="og:title" content="Home | Alif & Co" />
+                <meta property="og:description" content="Explore our reliable services tailored for your personal and business growth." />
+                <meta property="og:url" content="https://alifandco.co.uk/" />
+                <link rel="canonical" href="https://alifandco.co.uk/" />
+            </Helmet>
             <section className='my-5 text-center'>
                 <div className='my-5 text-center'>
                     <h1>About Us</h1>

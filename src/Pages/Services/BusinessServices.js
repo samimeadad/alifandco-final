@@ -11,6 +11,7 @@ import service8 from '../../images/service-business/Company Statutory Services.j
 import service9 from '../../images/service-business/atol-reporting.jpg';
 import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
+import { Helmet } from 'react-helmet';
 
 const BusinessServices = () => {
     useEffect( () => {
@@ -18,6 +19,14 @@ const BusinessServices = () => {
     }, [] )
     return (
         <Container className='my-5'>
+            <Helmet>
+                <title>Business Services | Alif & Co</title>
+                <meta name="description" content="Learn about Alif & Co's services regarding Personal Finance." />
+                <meta property="og:title" content="Business Servicess | Alif & Co" />
+                <meta property="og:description" content="Explore our reliable services tailored for your business progress through financial benefits." />
+                <meta property="og:url" content="https://alifandco.co.uk/business-services" />
+                <link rel="canonical" href="https://alifandco.co.uk/business-services" />
+            </Helmet>
             <h1 className='text-center my-5'>Business Services</h1>
             <Accordion className='w-50 m-auto'>
                 <Accordion.Item eventKey="0">

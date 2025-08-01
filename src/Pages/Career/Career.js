@@ -2,11 +2,20 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import background from '../../images/career/career-background.jpg';
 import ScrollToTop from 'react-scroll-to-top';
+import { Helmet } from 'react-helmet';
 
 const Career = () => {
     return (
-        <div className='w-100 overflow-hidden p-5' style={ { backgroundImage: `url(${ background })`, backgroundSize: "cover", overflow: 'hidden' } }>
-            <Container className='my-5 fs-5 text-justify' style={ { textAlign: "justify" } }>
+        <Container className='w-100 overflow-hidden p-5' style={ { backgroundImage: `url(${ background })`, backgroundSize: "cover", overflow: 'hidden' } }>
+            <Helmet>
+                <title>Career | Alif & Co</title>
+                <meta name="description" content="Start a new career with Alif & Co to gather real-life experience on personal and business finance." />
+                <meta property="og:title" content="Career | Alif & Co" />
+                <meta property="og:description" content="Start a new career with Alif & Co to gather real-life experience on personal and business finance." />
+                <meta property="og:url" content="https://alifandco.co.uk/career" />
+                <link rel="canonical" href="https://alifandco.co.uk/career" />
+            </Helmet>
+            <div className='my-5 fs-5 text-justify' style={ { textAlign: "justify" } }>
                 <section className='my-5 text-center'>
                     <h1>Careers</h1>
                     <h1 className='fs-1 text-warning fw-bold text-center'>_________________________________</h1>
@@ -32,9 +41,9 @@ const Career = () => {
                         If you think you are one them, please send your CV <span><a href="mailto:info@alifandco.co.uk" className='text-warning text-decoration-none'>here</a></span>. We will contact you when a suitable vacancy is available.
                     </p>
                 </section>
-            </Container>
+            </div>
             <ScrollToTop smooth />
-        </div>
+        </Container>
     );
 };
 

@@ -8,7 +8,7 @@ import service3 from '../../images/service-personal/inheritance-tax-planning.jpg
 import service4 from '../../images/service-personal/non-resident-tax-planning.jpg';
 import service5 from '../../images/service-personal/Retirement.jpg';
 import service6 from '../../images/service-personal/trusts-and-estates.jpg';
-
+import { Helmet } from 'react-helmet';
 
 const PersonalServices = () => {
     useEffect( () => {
@@ -16,7 +16,15 @@ const PersonalServices = () => {
     }, [] )
     return (
         <Container className='my-5'>
-            <h1 className='text-center my-5'>Business Services</h1>
+            <Helmet>
+                <title>Personal Services | Alif & Co</title>
+                <meta name="description" content="Learn about Alif & Co's services regarding Personal Finance." />
+                <meta property="og:title" content="Personal Services | Alif & Co" />
+                <meta property="og:description" content="Explore our reliable services tailored for your personal finance." />
+                <meta property="og:url" content="https://alifandco.co.uk/personal-services" />
+                <link rel="canonical" href="https://alifandco.co.uk/personal-services" />
+            </Helmet>
+            <h1 className='text-center my-5'>Personal Services</h1>
             <Accordion className='w-50 m-auto'>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 className='text-dark'>Income Tax</h4></Accordion.Header>

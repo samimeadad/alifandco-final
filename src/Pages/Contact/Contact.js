@@ -5,14 +5,23 @@ import HeaderText from './HeaderText';
 import backgroundImage from '../../images/contact/contact-background.jpg';
 import ContactForm from './ContactForm';
 import ScrollToTop from 'react-scroll-to-top';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     useEffect( () => {
         window.scrollTo( 0, 0 )
     }, [] )
     return (
-        <div className='w-100' style={ { backgroundImage: `url(${ backgroundImage })`, backgroundSize: "cover", overflow: 'hidden' } }>
-            <Container className='my-5'>
+        <Container className='w-100' style={ { backgroundImage: `url(${ backgroundImage })`, backgroundSize: "cover", overflow: 'hidden' } }>
+            <Helmet>
+                <title>Contact Us | Alif & Co</title>
+                <meta name="description" content="Get in touch with Alif & Co for personalized business consultations." />
+                <meta property="og:title" content="Contact | Alif & Co" />
+                <meta property="og:description" content="Explore our reliable services tailored for your personal and business growth." />
+                <meta property="og:url" content="https://alifandco.co.uk/" />
+                <link rel="canonical" href="https://alifandco.co.uk/contact" />
+            </Helmet>
+            <div className='my-5'>
                 <HeaderText />
                 <div className='my-5'>
                     <Row className='g-5'>
@@ -24,9 +33,9 @@ const Contact = () => {
                         </Col>
                     </Row>
                 </div>
-            </Container>
+            </div>
             <ScrollToTop smooth />
-        </div>
+        </Container>
     );
 };
 
